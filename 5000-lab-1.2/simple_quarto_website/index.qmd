@@ -1,0 +1,95 @@
+---
+title: "simple_quarto_website"
+---
+
+<html>
+<head>
+</head>
+<body>
+    <h1>Current Stock Market</h1>
+    <p>ipsum lorem ipsum lorem ipsum lorem</p>
+    <h2>My Stocks</h2>
+    <p>ipsum lorem ipsum lorem ipsum lorem</p>
+    <h3>Predictions</h3>
+    <p>ipsum lorem ipsum lorem ipsum lorem</p>
+    <h2>Markdown Table</h2>
+            | Default | Left | Right | Center |
+        |---------|:-----|------:|:------:|
+        | 12      | 12   |    12 |   12   |
+        | 123     | 123  |   123 |  123   |
+        | 1       | 1    |     1 |   1    |
+    <h2>Inline Math Equation</h2>
+        $E=mc^2$
+
+<h2>Markdown Table</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Header 1</th>
+                <th>Header 2</th>
+                <th>Header 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Data 1A</td>
+                <td>Data 1B</td>
+                <td>Data 1C</td>
+            </tr>
+            <tr>
+                <td>Data 2A</td>
+                <td>Data 2B</td>
+                <td>Data 2C</td>
+            </tr>
+            <tr>
+                <td>Data 3A</td>
+                <td>Data 3B</td>
+                <td>Data 3C</td>
+            </tr>
+        </tbody>
+    </table>
+
+ 
+<h2>Non-inline LaTeX Equation</h2>
+    $$E=mc^2$$
+
+ <quote>
+        <p> > This is a quote using ></p>
+</quote>
+
+<h2>Embedded Images</h2>
+<!-- First Image -->
+<img src="images/image1.jpeg" alt="Image 1" width="700" height="500">
+    <p>Caption for Image 1</p>
+<!-- Second Image -->
+<img src="images/image2.jpeg" alt="Image 2" width="700" height="500">
+    <p>Caption for Image 2</p>
+
+<!-- Embedded Video -->
+<h2>Embedded Video</h2>
+<p>Here is an embedded video:</p>
+<!-- Replace the iframe source with your video's embed code -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QcquWY_laW8?si=NO9xx0q3cc5AxDMk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<h2>Mermaid Diagram</h2>
+<div class="mermaid">
+    graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+</div>
+
+<p>Here are some references:</p>
+<!-- Citation  -->
+<p><cite class="citation">[Agrawal, 2013]</cite> - J. G. Agrawal. (2013). State-of-the-Art in Stock Prediction Techniques. International Journal of Advanced Research in Electrical, Electronics and Instrumentation Engineering.</p>
+
+
+
+
+
+</body>
+
+</html>
+:::
+

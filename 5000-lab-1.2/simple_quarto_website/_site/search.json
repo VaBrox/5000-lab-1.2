@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Current Stock Market\n\n&lt;p&gt;ipsum lorem ipsum lorem ipsum lorem&lt;/p&gt;\n&lt;h2&gt;My Stocks&lt;/h2&gt;\n    &lt;p&gt;ipsum lorem ipsum lorem ipsum lorem&lt;/p&gt;\n&lt;h3&gt;Predictions&lt;/h3&gt;\n    &lt;p&gt;ipsum lorem ipsum lorem ipsum lorem&lt;/p&gt;\n\n\n\nimport seaborn as sns\nimport matplotlib.pyplot as plt\n\ndf = sns.load_dataset(\"penguins\")\nprint(df)\n\nsns.set_theme(style = 'white', palette = \"Pastel1\")\ng = sns.relplot(data = df, x = \"bill_length_mm\", y = \"flipper_length_mm\", hue = \"species\", col = \"island\")\nFS = 18 \nplt.setp(g._legend.get_texts(), fontsize=FS)\nplt.setp(g._legend.get_title(), fontsize=FS)\nplt.savefig('plot-1.pdf', bbox_inches='tight')\nplt.show()\n\n    species     island  bill_length_mm  bill_depth_mm  flipper_length_mm  \\\n0    Adelie  Torgersen            39.1           18.7              181.0   \n1    Adelie  Torgersen            39.5           17.4              186.0   \n2    Adelie  Torgersen            40.3           18.0              195.0   \n3    Adelie  Torgersen             NaN            NaN                NaN   \n4    Adelie  Torgersen            36.7           19.3              193.0   \n..      ...        ...             ...            ...                ...   \n339  Gentoo     Biscoe             NaN            NaN                NaN   \n340  Gentoo     Biscoe            46.8           14.3              215.0   \n341  Gentoo     Biscoe            50.4           15.7              222.0   \n342  Gentoo     Biscoe            45.2           14.8              212.0   \n343  Gentoo     Biscoe            49.9           16.1              213.0   \n\n     body_mass_g     sex  \n0         3750.0    Male  \n1         3800.0  Female  \n2         3250.0  Female  \n3            NaN     NaN  \n4         3450.0  Female  \n..           ...     ...  \n339          NaN     NaN  \n340       4850.0  Female  \n341       5750.0    Male  \n342       5200.0  Female  \n343       5400.0    Male  \n\n[344 rows x 7 columns]"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "Current Stock Market\n\n\nipsum lorem ipsum lorem ipsum lorem\n\n\nMy Stocks\n\n\nipsum lorem ipsum lorem ipsum lorem\n\n\nPredictions\n\n\nipsum lorem ipsum lorem ipsum lorem\n\n\nMarkdown Table\n\n    | Default | Left | Right | Center |\n    |---------|:-----|------:|:------:|\n    | 12      | 12   |    12 |   12   |\n    | 123     | 123  |   123 |  123   |\n    | 1       | 1    |     1 |   1    |\n&lt;h2&gt;Inline Math Equation&lt;/h2&gt;\n    $E=mc^2$\n\nMarkdown Table\n\n\n\n\n\n\nHeader 1\n\n\nHeader 2\n\n\nHeader 3\n\n\n\n\n\n\nData 1A\n\n\nData 1B\n\n\nData 1C\n\n\n\n\nData 2A\n\n\nData 2B\n\n\nData 2C\n\n\n\n\nData 3A\n\n\nData 3B\n\n\nData 3C\n\n\n\n\n\n\nNon-inline LaTeX Equation\n\n\\[E=mc^2\\]\n\n\n\nThis is a quote using &gt;\n\n\n\n\nEmbedded Images\n\n\n\n\nCaption for Image 1\n\n\n\n\nCaption for Image 2\n\n\n\nEmbedded Video\n\n\nHere is an embedded video:\n\n\n\n\n\nMermaid Diagram\n\n\ngraph TD;\nA--&gt;B;\nA--&gt;C;\nB--&gt;D;\nC--&gt;D;\n\n\nHere are some references:\n\n\n\n[Agrawal, 2013] - J. G. Agrawal. (2013). State-of-the-Art in Stock Prediction Techniques. International Journal of Advanced Research in Electrical, Electronics and Instrumentation Engineering.\n\n\n\n:::"
+  },
+  {
+    "objectID": "slides/slides.html#my-stock",
+    "href": "slides/slides.html#my-stock",
+    "title": "simple-website",
+    "section": "My stock",
+    "text": "My stock"
+  },
+  {
+    "objectID": "slides/slides.html#prediction",
+    "href": "slides/slides.html#prediction",
+    "title": "simple-website",
+    "section": "Prediction",
+    "text": "Prediction"
+  },
+  {
+    "objectID": "slides/slides.html#citation",
+    "href": "slides/slides.html#citation",
+    "title": "simple-website",
+    "section": "Citation:",
+    "text": "Citation:\n[Agrawal, 2013] - J. G. Agrawal. (2013). State-of-the-Art in Stock Prediction Techniques. International Journal of Advanced Research in Electrical, Electronics and Instrumentation Engineering.\n\nimport seaborn as sns\nimport matplotlib.pyplot as plt\n\ndf = sns.load_dataset(\"penguins\")\nprint(df)\n\nsns.set_theme(style = 'white', palette = \"Pastel1\")\ng = sns.relplot(data = df, x = \"bill_length_mm\", y = \"flipper_length_mm\", hue = \"species\", col = \"island\")\nFS = 18 \nplt.setp(g._legend.get_texts(), fontsize=FS)\nplt.setp(g._legend.get_title(), fontsize=FS)\nplt.savefig('plot-1.pdf', bbox_inches='tight')\nplt.show()"
+  }
+]
